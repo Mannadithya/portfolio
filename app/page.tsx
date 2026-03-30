@@ -572,7 +572,7 @@ export default function Home() {
           <div className="diagonal-line" />
           <p className="hero-tag">// portfolio 2025</p>
           <h1 className="hero-name">
-            Manna<br />dithya
+            Mannadithya
           </h1>
           <p className="hero-role">
             {typedText}<span className="cursor-blink" />
