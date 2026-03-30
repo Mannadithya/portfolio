@@ -26,7 +26,10 @@ const SKILLS = ["Python", "PyTorch", "TensorFlow", "FastAPI", "LangChain", "FAIS
 
 export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [mousePos, setMousePos] = useState({
+  x: typeof window !== "undefined" ? window.innerWidth / 2 : 0,
+  y: typeof window !== "undefined" ? window.innerHeight / 2 : 0,
+});
   const [activeSection, setActiveSection] = useState("hero");
   const [typedText, setTypedText] = useState("");
   const fullText = "AI / ML Engineer";
@@ -165,9 +168,15 @@ export default function Home() {
         @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400&display=swap');
 
         /* ── FIX 2: cursor:none only on real pointer devices ── */
-        @media (hover: hover) and (pointer: fine) {
-          * { cursor: none !important; }
-        }
+        body {
+  cursor: auto;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -196,7 +205,7 @@ export default function Home() {
           .cursor { display: block; }
         }
         .cursor {
-          display: none;
+          display: block;
           position: fixed;
           pointer-events: none;
           z-index: 9999;
