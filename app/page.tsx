@@ -471,7 +471,8 @@ export default function Home() {
         .contact-inner { max-width: 700px; }
         .contact-heading {
           font-family: 'Syne', sans-serif;
-          font-size: clamp(2.5rem, 7vw, 6rem);
+          font-size: clamp(2.5rem, 7vw, 5rem);
+          line-height: 1;
           font-weight: 800; line-height: 1; margin-bottom: 2rem;
         }
         .contact-heading span { color: var(--green); }
@@ -573,7 +574,7 @@ export default function Home() {
           <div className="diagonal-line" />
           <p className="hero-tag">// portfolio 2025</p>
           <h1 className="hero-name">
-            Mannadithya
+            Manna<br> /</br>dithya
           </h1>
           <p className="hero-role">
             {typedText}<span className="cursor-blink" />
@@ -663,7 +664,7 @@ export default function Home() {
             <div className="contact-links">
               <a href="https://github.com/Mannadithya" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
               <a href="https://www.linkedin.com/in/mannadithya-a-7a88321bb/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="contact-link">Resume</a>
+              <a href="/RESUME.pdf" target="_blank" rel="noopener noreferrer" className="contact-link">Resume</a>
             </div>
           </div>
         </section>
