@@ -288,8 +288,8 @@ export default function Home() {
         .hero-name {
           font-family: 'Syne', sans-serif;
           font-weight: 800;
-          font-size: clamp(2.5rem, 7vw, 6rem);
-          line-height: 0.9;
+          font-size: clamp(2.5rem, 8vw, 6rem);
+          line-height: 1;
           letter-spacing: -0.02em;
           color: var(--text);
           opacity: 0;
