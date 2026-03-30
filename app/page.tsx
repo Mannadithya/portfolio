@@ -27,7 +27,6 @@ const SKILLS = ["Python", "PyTorch", "TensorFlow", "FastAPI", "LangChain", "FAIS
 export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-};
   const [activeSection, setActiveSection] = useState("hero");
   const [typedText, setTypedText] = useState("");
   const fullText = "AI / ML Engineer";
@@ -472,7 +471,6 @@ export default function Home() {
         .contact-heading {
           font-family: 'Syne', sans-serif;
           font-size: clamp(2.5rem, 7vw, 5rem);
-          line-height: 1;
           font-weight: 800; line-height: 1; margin-bottom: 2rem;
         }
         .contact-heading span { color: var(--green); }
@@ -574,7 +572,7 @@ export default function Home() {
           <div className="diagonal-line" />
           <p className="hero-tag">// portfolio 2025</p>
           <h1 className="hero-name">
-            Manna<br> /</br>dithya
+            Manna<br />dithya
           </h1>
           <p className="hero-role">
             {typedText}<span className="cursor-blink" />
