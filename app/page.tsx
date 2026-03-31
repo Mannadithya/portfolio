@@ -570,7 +570,7 @@ export default function Home() {
         {/* HERO */}
         <section id="hero">
           <div className="diagonal-line" />
-          <p className="hero-tag">// portfolio 2025</p>
+          <p className="hero-tag">// </p>
           <h1 className="hero-name">
             Mannadithya
           </h1>
@@ -587,7 +587,7 @@ export default function Home() {
         <section id="about">
           <div className="about-grid">
             <div>
-              <p className="section-label">// 01 — about</p>
+              <p className="section-label">// About</p>
               <h2 className="about-heading">
                 Building machines<br />that <span style={{ color: "var(--green)" }}>think.</span>
               </h2>
@@ -625,7 +625,7 @@ export default function Home() {
         <section id="projects">
           <div className="projects-header">
             <div>
-              <p className="section-label">// 02 — projects</p>
+              <p className="section-label">// Projects</p>
               <h2 className="projects-heading">
                 Selected<br /><span style={{ color: "var(--green)" }}>work.</span>
               </h2>
@@ -648,7 +648,7 @@ export default function Home() {
         {/* CONTACT */}
         <section id="contact">
           <div className="contact-inner">
-            <p className="section-label">// 03 — contact</p>
+            <p className="section-label">// Contact</p>
             <h2 className="contact-heading">
               Let's build<br />something <span>great.</span>
             </h2>
