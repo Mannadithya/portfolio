@@ -8,40 +8,34 @@ const PROJECTS = [
     title: "Financial Clause Extractor",
     desc: "Offline NLP pipeline using spaCy & EasyOCR to extract, classify and explain high-risk clauses in financial documents with a Streamlit dashboard.",
     tag: "NLP · spaCy · EasyOCR",
-    year: "2025",
   },
 
   {
     title: "Skin Cancer Detection",
     desc: "EfficientNetB0 transfer learning model classifying 9 ISIC skin lesion types with macro AUC ~0.92",
     tag: "PyTorch · Computer Vision",
-    year: "2024",
   },
 
   {
     title: "ESC-Net: SAR Image Colorization",
     desc: "C-GAN based deep learning framework with U-Net generators and attention modules for automatic colorization of grayscale SAR images.",
     tag: "Deep Learning · C-GAN",
-    year: "2024",
   },
 
   {
     title: "RAG Chatbot",
     desc: "FastAPI + LangChain + FAISS retrieval-augmented chatbot powered by local Llama3 via Ollama",
     tag: "LangChain · NLP",
-    year: "2024",
   },
   {
     title: "Invoice Intelligence Pipeline",
     desc: "7-stage OpenCV preprocessing pipeline with PaddleOCR, Neo4j knowledge graph and MS SQL for real-time invoice tracking at L&T Constructions.",
     tag: "OCR · Neo4j · OpenCV",
-    year: "2025",
   },
   {
     title: "Neural Portfolio",
     desc: "This very site — built with Next.js, Tailwind, and a sprinkle of obsession",
     tag: "Next.js · Design",
-    year: "2025",
   },
 ];
 
