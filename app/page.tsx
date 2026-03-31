@@ -651,7 +651,6 @@ export default function Home() {
           <div className="project-list">
             {PROJECTS.map((p) => (
               <div className="project-item" key={p.title}>
-                <span className="project-year">{p.year}</span>
                 <div>
                   <div className="project-title">{p.title}</div>
                   <div className="project-desc">{p.desc}</div>
