@@ -39,8 +39,7 @@ const PROJECTS = [
   },
 ];
 
-const SKILLS = ["Python", "PyTorch", "TensorFlow", "FastAPI", "LangChain", "FAISS", "Next.js", "Docker", "SQL", "Git"];
-
+const SKILLS = ["Python", "PyTorch", "TensorFlow", "OpenCV", "spaCy", "EasyOCR", "PaddleOCR", "Neo4j", "Streamlit", "NumPy", "Pandas", "Git"];
 export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -587,7 +586,7 @@ export default function Home() {
         {/* HERO */}
         <section id="hero">
           <div className="diagonal-line" />
-          <p className="hero-tag">// </p>
+          <p className="hero-tag">// Portfolio</p>
           <h1 className="hero-name">
             Mannadithya
           </h1>
@@ -680,7 +679,7 @@ export default function Home() {
               <a href="https://github.com/Mannadithya" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
               <a href="https://www.linkedin.com/in/mannadithya-a-7a88321bb/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
               <a href="/RESUME.pdf" target="_blank" rel="noopener noreferrer" className="contact-link">Resume</a>
-              <a href="7550050016" target="blank" rel="noopener noreferrer" className="contact-link">Phone</a>
+              <a href="tel:+917550050016" target="_blank" rel="noopener noreferrer" className="contact-link">Phone</a>
               <a href="mailto:mannadithya@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-link">Gmail</a>
             </div>
           </div>
